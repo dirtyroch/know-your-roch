@@ -1,0 +1,24 @@
+{
+  "name": "know-your-roch",
+  "version": "1.0.0",
+  "description": "Know Your Roch: guess the hot seat. A family party game for phones and a shared screen.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "private": true,
+  "dependencies": {
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.18.0",
+    "socket.io-client": "^4.8.1"
+  }
+}
